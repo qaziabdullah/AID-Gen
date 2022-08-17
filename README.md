@@ -2,6 +2,7 @@
 
 AID is a command line script to make infinite Anydesk IDs and then choose from them to get a good one.
 The reason of this was to get a good id for my PC and due to Anydesk not allowing to get a custom id.
+This only works on Windows 10 & 11. I will make for Windows 7 when I get time.
 
 ## Requirements:
 
