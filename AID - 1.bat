@@ -10,12 +10,16 @@ cd /d C:\AID-GEN\
 TIMEOUT 5
 start AnyDesk.exe
 TIMEOUT 7
-copy "C:\Users\Haqani Network\AppData\Roaming\AnyDesk" C:\AID-GEN\Output\AD1
+cd /d %AppData%
+copy Anydesk C:\AID-GEN\Output\AD1
 TIMEOUT 5
 taskkill /IM Anydesk.exe
 TIMEOUT 5
-del /f /s /q "C:\Users\Haqani Network\AppData\Roaming\AnyDesk" 1>nul
-rmdir /s /q "C:\Users\Haqani Network\AppData\Roaming\AnyDesk"
+cd /d %AppData%
+del /f /s /q AnyDesk 1>nul
+rmdir /s /q AnyDesk
+TIMEOUT 5
+taskkill /IM Anydesk.exe
 TIMEOUT 5
 taskkill /IM Anydesk.exe
 TIMEOUT 5
