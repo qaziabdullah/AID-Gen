@@ -1,5 +1,6 @@
-# Anydesk IDs Generator
+# Anydesk IDs Generator v2
 
+The latest version is a much cleaner code. Truly unlimited ids this time and customization options.
 AID is a command line script to make infinite Anydesk IDs and then choose from them to get a good one.
 The reason of this was to get a good id for my PC and due to Anydesk not allowing to get a custom id.
 This only works on Windows 10 & 11. I will make for Windows 7 when I get time.
@@ -23,13 +24,17 @@ Was bored and wanted a good Anydesk ID for my pc. Anydesk regenerates after each
 
 • If you had it installed please run "clear.bat" to delete temp files. (it will delete your old anydesk id so make backup if you want to)
 
-• Unzip the downloaded zip in C:\
+• Unzip the downloaded zip in C:\ so that the folder looks like C:\AID-Gen\(all-files-here)
 
 • You can check it first using AID - 1.bat and it will generate 1 Anydesk ID in output folder.
 
 • If it works, delete or copy the AD1 generated in Output so the directory is clear.
 
-• Run AID.bat as administrator.
+• Run AID-Gen-v2.bat as administrator.
+
+• Select the customization options such as timeout and total output ids for it to begin. Note that timeout of 5sec is recommended. Anything less than that can cause issues.
+
+• Run AID-Gen-v1.bat if you want to use the older version.
 
 • Wait for generating 100 IDs.
 
